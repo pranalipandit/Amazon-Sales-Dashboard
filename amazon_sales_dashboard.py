@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 df = pd.read_csv("updated_dataset 1.4.csv", encoding="latin1")
 
 # Streamlit Title
-st.title("📊 Amazon Sales Dashboard")
+st.title("Amazon Sales Dashboard")
 
 # Sidebar Filters
 st.sidebar.header("Filters")
